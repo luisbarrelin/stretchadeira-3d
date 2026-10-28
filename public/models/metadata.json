@@ -1,0 +1,88 @@
+{
+  "parameters": {
+    "unit": "mm",
+    "source": "Planta_Baixa_-_Equipamento_Stretch.pdf",
+    "nominal": {
+      "entry": 2930,
+      "opening": 2500,
+      "left": 3850,
+      "right": 2650,
+      "fenceHeight": 2000,
+      "panelReference": 1100
+    },
+    "estimated": {
+      "towerHeight": 2300,
+      "towerWidth": 380,
+      "towerDepth": 340,
+      "tableDiameter": 1650,
+      "tableHeight": 100,
+      "baseWidth": 1800,
+      "baseLength": 2700,
+      "towerX": 1465,
+      "towerZ": -3250,
+      "tableX": 1465,
+      "tableZ": -1750,
+      "carriageWidth": 380,
+      "carriageHeight": 620,
+      "panelWidth": 350,
+      "profile": 40,
+      "meshPitch": 80
+    },
+    "notes": {
+      "nominal": "Valores da planta, sem aferição independente.",
+      "estimated": "Aproximações visuais aprovadas para desenvolvimento. Não usar para fabricação.",
+      "layout": "Recuo e fechamento do canto posterior direito aproximados; referência de 1,10 m não aplicada como dimensão do gabinete."
+    }
+  },
+  "components": [
+    {
+      "id": "base",
+      "name": "Base metálica",
+      "confidence": "estimado",
+      "info": "Contorno e espessuras aproximados; parcialmente ocultos nas fotos."
+    },
+    {
+      "id": "table",
+      "name": "Mesa giratória",
+      "confidence": "estimado",
+      "info": "Diâmetro aproximado de 1,65 m. Palete removível em grupo separado."
+    },
+    {
+      "id": "tower",
+      "name": "Torre e guias",
+      "confidence": "estimado",
+      "info": "Altura aproximada de 2,30 m; carenagem baseada em IMG_3508."
+    },
+    {
+      "id": "carriage",
+      "name": "Carro de filme",
+      "confidence": "estimado",
+      "info": "Cobertura vermelha, bobina e rolos visíveis; transmissão interna omitida."
+    },
+    {
+      "id": "panel",
+      "name": "Painel de controle",
+      "confidence": "estimado",
+      "info": "Face oposta ao carro. Dimensões e posição aproximadas."
+    },
+    {
+      "id": "fence",
+      "name": "Grades de proteção",
+      "confidence": "misto",
+      "info": "Altura nominal 2,00 m; laterais nominais 3,85 e 2,65 m. Perfis e malha estimados."
+    },
+    {
+      "id": "gate",
+      "name": "Portão e sensores",
+      "confidence": "estimado",
+      "info": "Vão nominal 2,50 m; largura das folhas e ferragens aproximadas."
+    },
+    {
+      "id": "pallet",
+      "name": "Palete de referência",
+      "confidence": "estimado",
+      "info": "Objeto de contexto visível nas fotos; dimensões não fornecidas."
+    }
+  ],
+  "generated": "2026-10-28T18:52:59.126Z"
+}

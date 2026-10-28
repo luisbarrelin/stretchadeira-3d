@@ -1,0 +1,13 @@
+{
+  "errors": [],
+  "stats": {
+    "frame": 4,
+    "calls": 83,
+    "triangles": 3108,
+    "points": 0,
+    "lines": 508,
+    "geometries": 32,
+    "loadMs": 832,
+    "components": 8
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bounds": {
+    "min": [
+      -0.02,
+      0,
+      -3.8899999991059304
+    ],
+    "max": [
+      2.9699999991059305,
+      2.3650000035762786,
+      0.039999999105930335
+    ]
+  },
+  "towerBounds": {
+    "min": [
+      1.275,
+      0.065,
+      -3.43
+    ],
+    "max": [
+      1.6549999952316283,
+      2.3650000035762786,
+      -3.04000000077486
+    ]
+  },
+  "rawBytes": 89948,
+  "optimizedBytes": 68176,
+  "reductionPercent": 24.2,
+  "componentIds": [
+    "base",
+    "table",
+    "tower",
+    "carriage",
+    "panel",
+    "fence",
+    "gate",
+    "pallet"
+  ],
+  "checks": "Bounds preservados; valores finitos; IDs preservados; conversão mm/m; redução de tamanho"
+}

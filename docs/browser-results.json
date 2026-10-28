@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "stats": {
+    "frame": 149,
+    "calls": 101,
+    "triangles": 4068,
+    "points": 0,
+    "lines": 514,
+    "geometries": 50,
+    "loadMs": 610,
+    "components": 8
+  },
+  "tested": [
+    "load",
+    "views",
+    "dimensions",
+    "selection",
+    "visibility",
+    "wireframe",
+    "theme",
+    "zoom",
+    "fit",
+    "export",
+    "resize",
+    "mouse-orbit",
+    "mouse-pan",
+    "idle-render"
+  ]
+}
